@@ -744,8 +744,8 @@ $WPFtweaksbutton.Add_Click({
             $WPFEssTweaksWifi.IsChecked = $false
         }
         If ( $WPFEssTweaksLightTheme.IsChecked -eq $true ) {
-            reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 1 /f
-            reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 1 /f
+            Set-ItemProperty -Path  "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" -Name "AppsUseLightTheme" -Type DWord -Value 1
+            Set-ItemProperty -Path  "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" -Name "SystemUsesLightTheme" -Type DWord -Value 1
             $WPFEssTweaksLightTheme.IsChecked = $false
         }
         If ( $WPFMiscTweaksLapPower.IsChecked -eq $true ) {
