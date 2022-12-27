@@ -32,6 +32,7 @@
     "choco": "blender"
   },
   "WPFInstalldeepl": {
+    "winget": "DeepL.DeepL",
     "choco": "deepl"
   },
   "WPFInstallVLC": {
