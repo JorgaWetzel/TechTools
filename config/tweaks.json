@@ -1197,7 +1197,7 @@
     ]
   }
 },
-"EssTweaksLightTheme": {
+  "EssTweaksLightTheme": {
   "InvokeScript": [
   "New-ItemProperty -Path \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize\" -Name \"AppsUseLightTheme\" -PropertyType \"DWord\" -Value 1 -force
   New-ItemProperty -Path \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize\" -Name \"SystemUsesLightTheme\" -PropertyType \"DWord\" -Value 1 -force"
