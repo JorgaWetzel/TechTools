@@ -32,7 +32,7 @@ $configs = @{}
     "feature"
 ) | ForEach-Object {
     #$configs["$PSItem"] = Get-Content .\config\$PSItem.json | ConvertFrom-Json
-    $configs["$psitem"] = Invoke-RestMethod "https://raw.githubusercontent.com/ChrisTitusTech/winutil/$BranchToUse/config/$psitem.json"
+    $configs["$psitem"] = Invoke-RestMethod "https://raw.githubusercontent.com/JorgaWetzel/TechTools/$BranchToUse/config/$psitem.json"
 }
 
 
@@ -222,7 +222,7 @@ $WPFinstall.Add_Click({
                 # Switching to winget-install from PSGallery from asheroto
                 # Source: https://github.com/asheroto/winget-installer
                 
-                Start-Process powershell.exe -Verb RunAs -ArgumentList "-command irm https://raw.githubusercontent.com/ChrisTitusTech/winutil/$BranchToUse/winget.ps1 | iex | Out-Host" -WindowStyle Normal
+                Start-Process powershell.exe -Verb RunAs -ArgumentList "-command irm https://raw.githubusercontent.com/JorgaWetzel/TechTools/$BranchToUse/winget.ps1 | iex | Out-Host" -WindowStyle Normal
                 
             }
             elseif (((Get-ComputerInfo).WindowsVersion) -lt "1809") {
