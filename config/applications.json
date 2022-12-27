@@ -34,6 +34,9 @@
   "WPFInstallbrave": {
     "choco": "brave"
   },
+  "WPFInstallVLC": {
+    "choco": "vlc"
+  },
   "WPFInstallchrome": {
     "winget": "Google.Chrome",
     "choco": "googlechrome"
