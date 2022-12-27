@@ -303,6 +303,7 @@
                                 <CheckBox Name="EssTweaksHiber" Content="Disable Hibernation" Margin="5,0" ToolTip="Hibernation is really meant for laptops as it saves whats in memory before turning the pc off. It really should never be used, but some people are lazy and rely on it. Don't be like Bob. Bob likes hibernation."/>
                                 <CheckBox Name="EssTweaksDVR" Content="Disable GameDVR" Margin="5,0" ToolTip="GameDVR is a Windows App that is a dependancy for some Store Games. I've never met someone that likes it, but it's there for the XBOX crowd."/>
                                 <CheckBox Name="EssTweaksServices" Content="Set Services to Manual" Margin="5,0" ToolTip="Turns a bunch of system services to manual that don't need to be running all the time. This is pretty harmless as if the service is needed, it will simply start on demand."/>
+                                <CheckBox Name="EssTweaksLightTheme" Content="Set Win 11 Light Theme" Margin="5,0" ToolTip="Ändert das Windows einstellungen auf Hell."/>
                                 <Label Content="Dark Theme" />
                                 <StackPanel Orientation="Horizontal">
                                     <Label Content="Off" />
