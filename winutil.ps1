@@ -744,7 +744,7 @@ $WPFtweaksbutton.Add_Click({
             $WPFEssTweaksWifi.IsChecked = $false
         }
         If ( $WPFEssTweaksLightTheme.IsChecked -eq $true ) {
-            Write-Host "Enalbiing White Theme..."
+            Write-Host "Enabling White Theme..."
             Set-ItemProperty -Path  "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" -Name "AppsUseLightTheme" -Type DWord -Value 1
             Set-ItemProperty -Path  "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" -Name "SystemUsesLightTheme" -Type DWord -Value 1
             $WPFEssTweaksLightTheme.IsChecked = $false
