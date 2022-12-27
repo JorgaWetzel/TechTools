@@ -11,7 +11,7 @@ $BranchToUse = 'main'
 Start-Transcript $ENV:TEMP\Winutil.log -Append
 
 # $inputXML = Get-Content "MainWindow.xaml" #uncomment for development
-$inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/JorgaWetzel/TechTools/main/MainWindow.xaml?token=GHSAT0AAAAAABZLWGSDN6RR2KKBGAPQRIECY5LD2DQ") #uncomment for Production
+$inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/JorgaWetzel/TechTools/main/MainWindow.xaml") #uncomment for Production
 
 # Check if chocolatey is installed and get its version
 if ((Get-Command -Name choco -ErrorAction Ignore) -and ($chocoVersion = (Get-Item "$env:ChocolateyInstall\choco.exe" -ErrorAction Ignore).VersionInfo.ProductVersion)) {
