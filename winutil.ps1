@@ -87,7 +87,7 @@ Function Get-FormVariables {
     write-host "CCC::::::::::::C         T:::::::::T            T:::::::::T       "
     write-host "  CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT       "
     write-host ""
-    write-host "====Chris Titus Tech====="
+    write-host "====oneICT Tech====="
     write-host "=====Windows Toolbox====="
                            
  
