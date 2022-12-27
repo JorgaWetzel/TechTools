@@ -273,7 +273,7 @@ $WPFinstall.Add_Click({
         else {
             $Messageboxbody = "No Program(s) are installed"
         }
-        # $MessageIcon = [System.Windows.MessageBoxImage]::Information
+         $MessageIcon = [System.Windows.MessageBoxImage]::Information
 
         [System.Windows.MessageBox]::Show($Messageboxbody, $AppTitle, $ButtonType, $MessageIcon)
 
