@@ -35,6 +35,7 @@
     "choco": "brave"
   },
   "WPFInstallVLC": {
+    "winget": "VideoLAN.VLC",
     "choco": "vlc"
   },
   "WPFInstallchrome": {
