@@ -32,7 +32,6 @@
     "choco": "blender"
   },
   "WPFInstallbrave": {
-    "winget": "Brave.Brave",
     "choco": "brave"
   },
   "WPFInstallchrome": {
