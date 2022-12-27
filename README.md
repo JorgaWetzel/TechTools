@@ -19,7 +19,7 @@ irm christitus.com/win | iex
 ```
 If you are having TLS 1.2 Issues or You cannot find or resolve `christitus.com/win` then run with the following command:
 ```
-[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/JorgaWetzel/TechTools/main/winutil.ps1?token=GHSAT0AAAAAABZLWGSDNRB5WZ2XYT3SWU6UY5LDX6A')
+[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/JorgaWetzel/TechTools/main/winutil.ps1')
 ```
 
 EXE Wrapper for $10 @ https://www.cttstore.com/windows-toolbox

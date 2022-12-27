@@ -68,7 +68,8 @@ $xaml.SelectNodes("//*[@Name]") | ForEach-Object { Set-Variable -Name "WPF$($_.N
 Function Get-FormVariables {
     #If ($global:ReadmeDisplay -ne $true) { Write-host "If you need to reference this display again, run Get-FormVariables" -ForegroundColor Yellow; $global:ReadmeDisplay = $true }
         
-    write-host ""     OOOOOOOOO     TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT    "
+    write-host "" 
+    write-host "    OOOOOOOOO     TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT    "
     write-host "     OO:::::::::OO   T:::::::::::::::::::::TT:::::::::::::::::::::T   "
     write-host "   OO:::::::::::::OO T:::::::::::::::::::::TT:::::::::::::::::::::T   "
     write-host "  O:::::::OOO:::::::OT:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T   "
