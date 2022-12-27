@@ -31,8 +31,8 @@
     "winget": "BlenderFoundation.Blender",
     "choco": "blender"
   },
-  "WPFInstallbrave": {
-    "choco": "brave"
+  "WPFInstalldeepl": {
+    "choco": "deepl"
   },
   "WPFInstallVLC": {
     "winget": "VideoLAN.VLC",
